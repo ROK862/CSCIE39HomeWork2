@@ -21,9 +21,12 @@ jobs:
     
     - name: Install NPM packages
       run: npm ci
+    
+    - name: Clear NPM Cache
+      run: npm cache clear --force
       
-    - name: Install SASS Modules
-      run: npm i -g sass
+    - name: Install SASS
+      run: npm install sass
     
     - name: Build project
       run: npm run build
