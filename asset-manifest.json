@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CSCIE39HomeWork2/static/css/main.9eb7e33b.chunk.css",
-    "main.js": "/CSCIE39HomeWork2/static/js/main.cb028775.chunk.js",
-    "main.js.map": "/CSCIE39HomeWork2/static/js/main.cb028775.chunk.js.map",
+    "main.css": "/CSCIE39HomeWork2/static/css/main.6597d6cf.chunk.css",
+    "main.js": "/CSCIE39HomeWork2/static/js/main.681f20e7.chunk.js",
+    "main.js.map": "/CSCIE39HomeWork2/static/js/main.681f20e7.chunk.js.map",
     "runtime-main.js": "/CSCIE39HomeWork2/static/js/runtime-main.f840228f.js",
     "runtime-main.js.map": "/CSCIE39HomeWork2/static/js/runtime-main.f840228f.js.map",
     "static/js/2.52d1f986.chunk.js": "/CSCIE39HomeWork2/static/js/2.52d1f986.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.cb72d334.chunk.js": "/CSCIE39HomeWork2/static/js/3.cb72d334.chunk.js",
     "static/js/3.cb72d334.chunk.js.map": "/CSCIE39HomeWork2/static/js/3.cb72d334.chunk.js.map",
     "index.html": "/CSCIE39HomeWork2/index.html",
-    "static/css/main.9eb7e33b.chunk.css.map": "/CSCIE39HomeWork2/static/css/main.9eb7e33b.chunk.css.map",
+    "static/css/main.6597d6cf.chunk.css.map": "/CSCIE39HomeWork2/static/css/main.6597d6cf.chunk.css.map",
     "static/js/2.52d1f986.chunk.js.LICENSE.txt": "/CSCIE39HomeWork2/static/js/2.52d1f986.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f840228f.js",
     "static/js/2.52d1f986.chunk.js",
-    "static/css/main.9eb7e33b.chunk.css",
-    "static/js/main.cb028775.chunk.js"
+    "static/css/main.6597d6cf.chunk.css",
+    "static/js/main.681f20e7.chunk.js"
   ]
 }
