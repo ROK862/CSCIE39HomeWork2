@@ -1,34 +1,33 @@
-$particles: 50;
-$width: 500;
-$height: 500;
-
+$sparks: 82;
+$height: 690;
+$length: 690;
 $box-shadow: ();
 $box-shadow2: ();
-@for $i from 0 through $particles {
+@for $n from 0 through $sparks {
   $box-shadow: $box-shadow,
-               random($width)-$width / 2 + px
+               random($length)-$length / 2 + px
                random($height)-$height / 1.2 + px
                hsl(random(360), 100, 50);
   $box-shadow2: $box-shadow2, 0 0 #fff
 }
-@mixin keyframes ($animationName) {
-    @-webkit-keyframes #{$animationName} {
+@mixin keyframes ($coolExplosion) {
+    @-webkit-keyframes #{$coolExplosion} {
         @content;
     }
 
-    @-moz-keyframes #{$animationName} {
+    @-moz-keyframes #{$coolExplosion} {
         @content;
     }
 
-    @-o-keyframes #{$animationName} {
+    @-o-keyframes #{$coolExplosion} {
         @content;
     }
 
-    @-ms-keyframes #{$animationName} {
+    @-ms-keyframes #{$coolExplosion} {
         @content;
     }
 
-    @keyframes #{$animationName} {
+    @keyframes #{$coolExplosion} {
         @content;
     }
 }
