@@ -21,6 +21,9 @@ jobs:
     
     - name: Install NPM packages
       run: npm ci
+      
+    - name: Install SASS Modules
+      run: npm i -g sass
     
     - name: Build project
       run: npm run build
