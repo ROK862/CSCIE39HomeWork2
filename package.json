@@ -17,6 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://rok862.github.io/public",
   "eslintConfig": {
     "extends": [
       "react-app",
